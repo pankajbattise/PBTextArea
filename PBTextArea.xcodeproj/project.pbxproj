@@ -13,6 +13,7 @@
 		E060B3DD231FD0FA00018724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E060B3DB231FD0FA00018724 /* Main.storyboard */; };
 		E060B3DF231FD0FB00018724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E060B3DE231FD0FB00018724 /* Assets.xcassets */; };
 		E060B3E2231FD0FB00018724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E060B3E0231FD0FB00018724 /* LaunchScreen.storyboard */; };
+		E095EA18231FD913004C496A /* PBTextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = E095EA17231FD913004C496A /* PBTextArea.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E060B3DE231FD0FB00018724 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E060B3E1231FD0FB00018724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E060B3E3231FD0FB00018724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E095EA17231FD913004C496A /* PBTextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBTextArea.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			children = (
 				E060B3C9231FD07900018724 /* PBTextArea.h */,
 				E060B3CA231FD07900018724 /* Info.plist */,
+				E095EA17231FD913004C496A /* PBTextArea.swift */,
 			);
 			path = PBTextArea;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				TargetAttributes = {
 					E060B3C5231FD07900018724 = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 					};
 					E060B3D4231FD0FA00018724 = {
 						CreatedOnToolsVersion = 10.2;
@@ -197,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E095EA18231FD913004C496A /* PBTextArea.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +361,7 @@
 		E060B3CF231FD07900018724 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -372,6 +378,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.extentia.PBTextArea;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -380,6 +387,7 @@
 		E060B3D0231FD07900018724 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
