@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74A52674272ADC8A00D11FBC /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74A52673272ADC8A00D11FBC /* Config.plist */; };
 		E060B3CB231FD07900018724 /* PBTextArea.h in Headers */ = {isa = PBXBuildFile; fileRef = E060B3C9231FD07900018724 /* PBTextArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E060B3D8231FD0FA00018724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E060B3D7231FD0FA00018724 /* AppDelegate.swift */; };
 		E060B3DA231FD0FA00018724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E060B3D9231FD0FA00018724 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		74A52673272ADC8A00D11FBC /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 		E060B3C6231FD07900018724 /* PBTextArea.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PBTextArea.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E060B3C9231FD07900018724 /* PBTextArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBTextArea.h; sourceTree = "<group>"; };
 		E060B3CA231FD07900018724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				E060B3DE231FD0FB00018724 /* Assets.xcassets */,
 				E060B3E0231FD0FB00018724 /* LaunchScreen.storyboard */,
 				E060B3E3231FD0FB00018724 /* Info.plist */,
+				74A52673272ADC8A00D11FBC /* Config.plist */,
 			);
 			path = PBTextAreaSample;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74A52674272ADC8A00D11FBC /* Config.plist in Resources */,
 				E060B3E2231FD0FB00018724 /* LaunchScreen.storyboard in Resources */,
 				E060B3DF231FD0FB00018724 /* Assets.xcassets in Resources */,
 				E060B3DD231FD0FA00018724 /* Main.storyboard in Resources */,
